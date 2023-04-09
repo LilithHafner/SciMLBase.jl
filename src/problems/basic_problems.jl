@@ -447,6 +447,7 @@ it is passed on as is to the optimization solver.
 * `ucons`: the vector of upper bounds for the constraints passed to [OptimizationFunction](@ref).
     Defaults to `nothing`, implying no upper bounds for the constraints (i.e. the constraint bound is `Inf`)
 * `sense`: the objective sense, can take `MaxSense` or `MinSense` from Optimization.jl.
+* `kwargs`: the keyword arguments passed on to the solvers.
 
 ## Inequality and Equality Constraints
 
